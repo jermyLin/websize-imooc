@@ -1,0 +1,304 @@
+
+/*中间内容*/
+#main{
+    margin-top: 50px;
+}
+#main_left{
+    width: 840px;
+    float: left;
+}
+#main_right{
+    width: 280px;
+    float: right;
+}
+/*1.左部分*/
+.create_sj{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+    background: url("../sj/creatbg.png");
+    background-size: contain;
+}
+.create_sj span{
+    display: inline-block;
+    line-height: 80px;
+    height: 80px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.create_sj a{
+    display: inline-block;
+    font-size: 16px;
+    width: 160px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    float: right;
+    margin:20px 40px 0 0 ;
+}
+.article_wrap{
+    width: 100%;
+    height: 240px;
+    margin-top: 20px;
+}
+.create_web{
+    width: 520px;
+    height: 100%;
+}
+.create_web img{
+    width: 520px;
+    height: 100%;
+}
+.paste{
+    width: 320px;
+    height: 100%;
+    background-color: #f3f5f7;
+}
+.paste li{
+    width: 100%;
+    height: 120px;
+}
+.paste li:nth-child(1){
+    height: 119px;
+    border-bottom: 1px solid #b7bbbf;
+}
+.paste p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #07111b;
+    padding: 30px 0 0 15px;
+}
+.paste span{
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 0 0 15px;
+    color: #787d82;
+}
+.paste p:hover{
+    color: red;
+}
+.paste span:hover{
+    color: #07111b;
+}
+.course_nav{
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.course_nav a{
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #4d555d;
+    margin-right: 10px;
+    background-color: #f3f5f7;
+}
+.course_nav a:hover{
+    background-color: #d9dde1;
+}
+.course_title{
+    margin-top: 10px;
+    border-bottom: 1px solid #b7bbbf;
+}
+.course_title a{
+    display: inline-block;
+    line-height: 48px;
+    font-size: 16px;
+    margin-right: 45px;
+    color: #4d555d;
+}
+.course_title a:first-child{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.list_det{
+    padding: 20px 0;
+    border-bottom: 1px solid #b7bbbf;
+}
+.list_det>a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #14191e;
+    margin-bottom: 20px;
+}
+.list_det>a:hover{
+    color: red;
+}
+.list_info{
+    padding: 10px 0;
+    height: 140px;
+    width: 100%;
+}
+.list_img{
+    display: inline-block;
+    width: 210px;
+    height: 130px;
+    float: left;
+    margin-right: 13px;
+}
+.list_info p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #787d82;
+    margin-top: -5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.course_bottom{
+    padding-right: 10px;
+    text-align: right;
+}
+.course_bottom span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    color: #787d82;
+    margin-left: 30px;
+}
+.course_bottom a{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    color: #787d82;
+    float: left;
+}
+/*2.右部分*/
+.create_sj-link a{
+    text-align: center;
+    display: block;
+    line-height: 56px;
+    border: 2px solid red;
+    color: red;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.create_sj-link a:hover{
+    background: red;
+    color: #ffffff;
+}
+.Rec_author h1{
+    line-height: 59px;
+    border-bottom: 1px solid #b7bbbf;
+    font-size: 16px;
+}
+.author_list{
+    padding: 20px 0 20px 60px;
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #b7bbbf;
+}
+.head_portrait{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.head_portrait img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 0;
+}
+.user_name a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #787d92;
+    line-height: 20px;
+    text-align: left;
+}
+.role{
+    font-size: 12px;
+    color: #b5b9bc;
+    line-height: 20px;
+    text-align: left;
+}
+.Tags_vane h1{
+    line-height: 59px;
+    border-bottom: 1px solid #b7bbbf;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.Tags_vane-det{
+    padding: 20px 0;
+    border-bottom: 1px solid #b7bbbf;
+}
+.Tags_vane-det a{
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #4d555d;
+    margin: 0 10px 10px 0;
+    background-color: #f3f5f7;
+}
+.Tags_vane-det a span{
+    display: inline-block;
+    margin-left: 10px;
+    color: #b5b9bc;
+}
+.Tags_vane-det a:hover{
+    background-color: #d9dde1;
+}
+
+.hot_ques h1{
+    line-height: 59px;
+    border-bottom: 1px solid #b7bbbf;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.ques_list{
+    padding: 20px 0;
+    border-bottom: 1px solid #d0d6d9;
+}
+.ques_list p{
+    line-height: 22px;
+    font-size: 16px;
+    word-break: break-all;
+    text-align: left;
+    color: #14191e;
+    margin-bottom: 10px;
+}
+.ques_list>span{
+    display: inline-block;
+    color: #b5b9bc;
+    margin-right: 20px;
+}
+.ques_list a{
+    display: inline-block;
+    float: right;
+}
+.ques_list a span{
+    color: #b5b9bc;
+}
+/*3.翻页部分*/
+#pages{
+    margin: 50px 0 20px;
+    height: 39px;
+    text-align: center;
+}
+#pages a{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 5px;
+    min-width: 20px;
+    height: 29px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #787d82;
+    text-align: center;
+}
+.pages_num{
+    width: 25px;
+    background: red;
+}
+
+
+

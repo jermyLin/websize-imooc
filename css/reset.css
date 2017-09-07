@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;font-size: 12px;font-family: '微软雅黑',serif;}
+li{list-style: none}
+/*img,.search_btn{border: none}*/
+input,select,textarea{outline: none;}
+.search_box input{border: none}
+a{text-decoration: none}
+textarea{resize: none}
+.fl{float: left}
+.fr{float: right}
+img{border: 0;outline:none;}
+/*去掉按钮点击后的外框*/
+button{
+    outline: none;
+}
+/*清浮动*/
+.clearfix:after{content: "";display: block;clear: both}
+.clearfix{zoom: 1;}
+/*公共*/
+.comwidth{
+    width: 1200px;
+    margin: auto;
+}
+.minwidth{
+    min-width:1200px ;
+}
+p {
+    word-break: break-all;
+}
+
+
+

@@ -1,0 +1,374 @@
+
+#bg_img{
+    width: 100%;
+    height: 540px;
+    background: #d9dde1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+}
+/*中间内容*/
+/*1.顶部*/
+#main_top{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    height: 500px;
+}
+.Left_part{
+    height: 500px;
+    width: 880px;
+}
+.top-pic{
+    width: 100%;
+    height: 340px;
+    background: url("../sz/BAT.jpg");
+}
+.bottom_pic{
+    width: 100%;
+    height: 160px;
+}
+.webIde{
+    width: 440px;
+    height: 100%;
+    background: url("../sz/webide.jpg");
+}
+.bs{
+    width: 440px;
+    height: 100%;
+    background: url("../sz/bs.jpg");
+}
+.right_part{
+    width: 320px;
+    height: 100%;
+    background: url("../sz/sj.jpg");
+}
+/*2.首发课程*/
+.box_img01{
+    background: url("../sz/sf-bg1.jpg");
+}
+.box_img02{
+    background: url("../sz/sf-bg2.jpg");
+}
+.box_img03{
+    background: url("../sz/sf-bg3.jpg");
+}
+.box_img04{
+    background: url("../sz/sf-bg4.jpg");
+}
+.box_img05{
+    background: url("../sz/sf-bg5.jpg");
+}
+.box_img06{
+    background: url("../sz/sf-bg6.jpg");
+}
+.box_img07{
+    background: url("../sz/sf-bg7.jpg");
+}
+.box_img08{
+    background: url("../sz/sf-bg8.jpg");
+}
+/*公共部分*/
+#index_course{
+    height: 1098px;
+}
+#index_course h1{
+    font-size: 36px;
+    color: #4d555d;
+    text-align: center;
+    margin-bottom: 48px;
+    font-weight: bold;
+    line-height: 36px;
+}
+.course_list li{
+    float: left;
+    position: relative;
+    width: 360px;
+    height: 278px;
+    margin: 0 60px 60px 0;
+}
+.course_list li:nth-child(3n + 3) {
+    margin-right: 0;
+}
+.course_detail{
+    width: 360px;
+    height: 280px;
+    position: relative;
+}
+.public_img{
+    width: 360px;
+    height: 202px;
+}
+.Det_box{
+    height: 160px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    /*transition:bottom 0.3s;*/
+    overflow: hidden;
+    padding: 0 30px;
+    /*background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);
+    background:-moz-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);
+    background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);*/
+    background: url('../shouye/bg-course.png') no-repeat center center;
+    background-size: cover;
+    opacity: 0.95;
+    filter: alpha(opacity=95);  /* IE 4-7 */
+}
+.box_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #07111b;
+    line-height: 32px;
+    margin-top: 24px;
+    text-align: left;
+}
+.box_content{
+    margin-top: 12px;
+    line-height: 24px;
+    color: #93999f;
+    font-size: 12px;
+    display: none;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.box_bottom{
+    height: 40px;
+    width: 300px;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 5px #ececec;
+    -moz-box-shadow: 0 5px 5px #ececec;
+    -ms-box-shadow: 0 5px 5px #ececec;
+    box-shadow: 0 5px 5px #ececec;
+    color: #93999f;
+    /*width: inherit;*/
+}
+.cost{
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 16px;
+    color: #f01414;
+}
+/*3名师列表部分*/
+
+.tc_01{
+    background:url("../sz/tx-1.png");
+}
+.tc_02{
+    background:url("../sz/tx-2.png");
+}
+.tc_03{
+    background:url("../sz/tx-3.png");
+}
+.tc_04{
+    background:url("../sz/tx-4.png");
+}
+/*公共部分*/
+#teacher_list{
+    width: 100%;
+    height: 560px;
+    margin-top: 60px;
+    background: url("../sz/bg-tm.jpg") no-repeat fixed;
+    background-size: cover;
+}
+.teacher_title{
+    height: 236px;
+    overflow: hidden;
+    text-align: center;
+}
+.teacher_title h2{
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.teacher_title p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.star-item li{
+    position: relative;
+    float: left;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    /*transition:margin-top 0.5s;*/
+}
+.public_tc{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.tc_info h3{
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    margin-top: 16px;
+}
+.tc_info h4{
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.tc_intro{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    text-align: left;
+    padding: 0 20px;
+    display: none;
+}
+/*4.图片轮播部分*/
+
+#pic_Carousel{
+    background-color: #f3f5f7;
+    width: 100%;
+    height: 560px;
+
+}
+.Carousel_title{
+    height: 80px;
+    text-align: center;
+   padding-top: 80px;
+}
+.Carousel_title h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: #07111b;
+    line-height: 36px;
+}
+.Carousel_title p{
+    text-align: center;
+    font-size: 14px;
+    color: #4d555d;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.Carousel_detail{
+    height: 369px;
+    width: 100%;
+    margin-top: 32px;
+    position: relative;
+}
+.Carousel_list{
+      position: relative;
+}
+.list_info1{
+    height: 240px;
+    width: 800px;
+    background: #fff;
+    position: absolute;
+    left: 200px;
+    top: 35px;
+    z-index: 5;
+    box-shadow: 0 10px 15px #ccc;
+}
+.list_info2{
+    height: 210px;
+    width: 800px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 4;
+    box-shadow: 0 5px 8px #bbb;
+}
+.list_info3{
+    height: 210px;
+    width: 800px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 3;
+    box-shadow: 0 5px 8px #bbb;
+}
+.list_info4{
+    height: 210px;
+    width: 800px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    z-index: 2;
+    box-shadow: 0 5px 8px #bbb;
+}
+.list_info5{
+    height: 210px;
+    width: 800px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    z-index: 1;
+    box-shadow: 0 5px 8px #bbb;
+}
+#prev{
+    left: 30px;
+    background: url("../sz/wzf.png");
+}
+#next{
+    right: 30px;
+    background: url("../sz/wyf.png");
+}
+/*公共部分*/
+
+.list_img{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin: 32px 24px 0 32px;
+    border-radius: 50%;
+}
+.list_img img{
+    display: inline-block;
+    max-height: 60px;
+    min-width: 60px;
+}
+.list_content{
+    margin-top: -60px;
+    padding:0 30px 0 120px ;
+}
+.list_content h5{
+    line-height: 36px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.list_link{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.list_link a{
+    font-size: 14px;
+    display: inline-block;
+    color: #006699;
+}
+.synopsis{
+    font-size: 14px;
+    line-height: 24px;
+    word-wrap: break-word;
+    color: #4d555d;
+    text-align: left;
+}
+.arrow{
+    cursor: pointer;
+    width:26px;
+    height: 70px;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}

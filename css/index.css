@@ -1,0 +1,688 @@
+/*1.头部导航*/
+#header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+.logo img{
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.nav{
+    padding-top:30px;
+    margin-left:190px;
+}
+.nav li{
+    float: left;
+    margin-right: 40px;
+}
+
+.nav li a{
+    display: inline-block;
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.nav li a:hover{
+    color: red;
+}
+.search_btn>input{
+    position: absolute;
+    top: 25px;
+    right: 250px;
+    width: 210px;
+    padding: 5px 10px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #71777d;
+    border: 0;
+    border-bottom: 1px solid #d0d6d9;
+}
+.search_btn>input:focus{
+    border-bottom:1px solid #14191e;
+}
+.search_btn>i{
+    position: absolute;
+    right: 260px;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height:20px;
+    cursor: pointer;
+    background: url("../public/search.png") no-repeat;
+}
+.search_btn>i:hover{
+    background: url("../public/search1.png") no-repeat;
+}
+
+.login{
+    margin-right: 50px;
+}
+.login li{
+    float: left;
+    width: 60px;
+}
+.login li a{
+    text-align: center;
+    display: inline-block;
+    color: #3E3E3E;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 60px;
+}
+.login .app_btn{
+    line-height: 20px;
+    background: url("../public/phone.png") no-repeat 20px;
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+}
+.login li a:hover{
+    color: red;
+}
+.login .app_btn:hover{
+    background: url("../public/phone1.png") no-repeat 20px;
+}
+
+#bg_img{
+    background: url("../shouye/bg-1.jpg") no-repeat;
+    width: 100%;
+    height: 490px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+    background-size: cover;
+}
+/*2.banner部分/
+
+/*背景图片*/
+
+.page1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../shouye/banner1.jpg");
+    /*transition: background-image 1s;*/
+    z-index: -100;
+}
+.page2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../shouye/banner2.jpg");
+    /*transition: background-image 1s;*/
+    z-index: -100;
+    display: none;
+}
+.page3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../shouye/banner3.jpg");
+    /*transition: background-image 1s;*/
+    z-index: -100;
+    display: none;
+}
+.page4{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../shouye/banner4.jpg");
+    /*transition: background-image 1s;*/
+    z-index: -100;
+    display: none;
+}
+/*course*/
+#course{
+    width: 100%;
+    height: 460px;
+    cursor: pointer;
+    position: relative;
+}
+.course_nav{
+    width: 245px;
+    padding: 5px 0 5px 0;
+    height: 450px;
+    background-color: rgba(7,17,25,0.5);
+    z-index: 1;
+}
+.Course_Details{
+    height: 90px;
+    width: 205px;
+    padding: 0 20px;
+}
+.Course_Details:hover{
+    background-color: rgba(7,17,25,0.7);
+    cursor: pointer;
+}
+.Course_content{
+    height: 89px;
+    width: 100%;
+    border-bottom: 1px solid #909498;
+}
+.Course_content1{
+    height: 90px;
+    width: 100%;
+}
+.course_name{
+    line-height: 16px;
+    font-size: 16px;
+    color: #fff;
+    padding: 25px 0 10px 0;
+}
+.name_Details a{
+    color: #fff;
+    line-height: 14px;
+    margin-right: 10px;
+}
+.name_Details a:hover{
+    color: red;
+}
+.publicBox{
+    width: 693px;
+    height: 458px;
+    padding-left:40px;
+    border: 1px solid silver;
+    border-left: none;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 245px;
+}
+.hide{
+    display: none;
+}
+.flml-1{
+    background:url("../shouye/flml-1.png") ;
+}
+.flml-2{
+    background:url("../shouye/flml-2.png") ;
+}
+.flml-3{
+    background:url("../shouye/flml-3.png") ;
+}
+.flml-4{
+    background:url("../shouye/flml-4.png") ;
+}
+.flml-5{
+    background:url("../shouye/flml-5.png") ;
+}
+.content_table{
+    line-height: 16px;
+    font-size: 16px;
+    color: red;
+    margin-bottom: 10px;
+    padding-top: 34px;
+}
+.title a,.title span{
+    display: inline-block;
+    font-size:14px;
+    color: #3E3E3E;
+    margin:10px 10px 0 0;
+}
+.title a:hover{
+    color: red;
+}
+.arrow{
+    cursor: pointer;
+    width:40px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    z-index: 1;
+}
+.arrow:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+#prev{
+    left: 245px;
+}
+#next{
+    right: 0;
+}
+/*课程推荐*/
+.recommend_combat{
+    margin: 30px 0 25px 0;
+}
+.combat{
+    line-height: 16px;
+    font-size: 16px;
+}
+.more{
+    line-height: 16px;
+    font-size: 16px;
+    color: #3E3E3E;;
+    margin-top: 8px;
+}
+.recommend_Details{
+    width: 100%;
+    height: 172px;
+}
+.recommend_box{
+    width: 224px;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+}
+.recommend_box1{
+    width: 224px;
+    height: 100%;
+    position: relative;
+}
+.recommend_img01{
+    background: url("../shouye/sz-1.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img02{
+    background: url("../shouye/sz-2.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img03{
+    background: url("../shouye/sz-3.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img04{
+    background: url("../shouye/sz-4.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img05{
+    background: url("../shouye/sz-5.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img1{
+    background: url("../shouye/mf-1.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img2{
+    background: url("../shouye/mf-2.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img3{
+    background: url("../shouye/mf-3.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img4{
+    background: url("../shouye/mf-4.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img5{
+    background: url("../shouye/mf-5.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.Det_box{
+    height: 86px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /*transition:bottom 0.3s;*/
+    /*background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8),#fff, #fff, #fff);
+    background:-moz-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);
+    background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);*/
+    overflow: hidden;
+    background: url('../shouye/bg-course.png') no-repeat;
+    opacity: 0.95;
+    filter: alpha(opacity=95);  /* IE 4-7 */
+}
+.box_title{
+    width: 184px;
+    margin-top: 19px;
+    height: 24px;
+    min-height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #07111b;;
+}
+.box_content{
+    /*
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    */
+    width: 184px;
+    color: #93999f;
+    font-size: 12px;
+    height: 48px;
+    margin-left: 20px
+}
+.box_bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    height: 38px;
+    background-color: #fff;
+    color: #93999f;
+    -webkit-box-shadow: 0 5px 5px #ececec;
+    -moz-box-shadow: 0 5px 5px #ececec;
+    -ms-box-shadow: 0 5px 5px #ececec;
+    box-shadow: 0 5px 5px #ececec;
+}
+.box_bottom1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    height: 38px;
+    background-color: #fff;
+    color: #93999f;
+}
+.cost{
+    color: red;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.people_num{
+    font-size: 12px;
+    margin-right: 20px;
+}
+.people_num01{
+    font-size: 12px;
+    margin-left: 20px;
+}
+/*Web-Java-sj*/
+
+/*a.web*/
+
+.web_Des{
+    background: url("../shouye/web-bg1.png");
+}
+.web_Des p a{
+    color: #c03;
+}
+.web_longer{
+    width: 468px;
+    height: 100%;
+    margin-right: 20px;
+}
+.longer_top1{
+    margin-bottom: 20px;
+    background: url("../shouye/web-bg2.jpg");
+}
+.longer_bottom1{
+    background: url("../shouye/web-bg3.jpg");
+}
+.shot{
+    width: 224px;
+    height: 100%;
+    margin-right: 20px;
+}
+.shot_top{
+    width: 100%;
+    height: 172px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.shot_bottom{
+    width: 100%;
+    height: 172px;
+    position: relative;
+}
+.top_img1{
+    background: url("../shouye/web-bg4.jpg") no-repeat;
+}
+.top_img2{
+    background: url("../shouye/web-bg5.jpg") no-repeat;
+}
+.top_img3{
+    background: url("../shouye/web-bg6.jpg") no-repeat;
+}
+/*b.java*/
+.java_Des{
+    background: url("../shouye/java-bg1.png");
+}
+.java_Des p a{
+    color: #069;
+}
+.java_longer{
+    width: 712px;
+    height: 364px;
+    margin-right: 20px;
+}
+.bottom_public{
+    width: 224px;
+    height: 172px;
+    position: relative;
+    margin-right: 20px;
+}
+.bottom_right{
+    width: 224px;
+    height: 172px;
+    position: relative;
+}
+.longer_top2{
+    margin-bottom: 20px;
+    background: url("../shouye/java-bg2.jpg");
+}
+.top_img01{
+    background: url("../shouye/java-bg3.png") no-repeat;
+}
+.top_img02{
+    background: url("../shouye/java-bg4.png") no-repeat;
+}
+.top_img03{
+    background: url("../shouye/java-bg5.png") no-repeat;
+}
+.top_img04{
+    background: url("../shouye/java-bg6.jpg") no-repeat;
+}
+/*c.sj*/
+.SjYW_Des{
+    background: url("../shouye/sj-bg1.png");
+    width: 184px;
+    height: 344px;
+    margin-right: 20px;
+    padding:20px 20px 0 20px;
+}
+.SjYW_Des h1{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+.dj{
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dj a{
+    display: inline-block;
+    color: #fff;
+}
+.It_ZhiShi{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin: 20px 0 120px 0;
+}
+.SjYW_middle{
+    width: 468px;
+    height: 364px;
+    margin-right: 20px;
+}
+.middle_top{
+    margin-bottom: 20px;
+    background: url("../shouye/sj-bg2.jpg");
+}
+.middle_bottom,.SjYW_right-bottom{
+    background: #ffffff;
+    width: 100%;
+    height: 172px;
+}
+
+.SjYW_right{
+    width: 468px;
+    height: 364px;
+}
+.SjYW_right-top{
+    margin-bottom: 20px;
+    background: url("../shouye/sj-bg3.jpg");
+}
+#mainbody02{
+    width: 100%;
+    height: 1460px;
+    background-color: #f3f5f7;
+    padding-top: 48px;
+    margin-top: 48px;
+}
+#web_course,#Java_course,#Linux_course,#SjYW_course{
+    height: 364px;
+    margin-bottom: 48px;
+}
+.right_part{
+    width: 224px;
+    height: 364px;
+}
+.right_top{
+    position: relative;
+    width: 224px;
+    height: 172px;
+}
+.right_bottom{
+    height: 172px;
+    width: 224px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.right_bottom li{
+    padding:10px 0 0 10px;
+}
+.right_bottom li a{
+    color: #3E3E3E;
+}
+.right_bottom li a:hover{
+    color: red;
+}
+.public_Des{
+    width: 184px;
+    height: 344px;
+    margin-right: 20px;
+    padding:20px 20px 0 20px;
+}
+.public_Des h1{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+.Career_Path{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin: 40px 0 100px 0;
+}
+.public_Des p a{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.public_Des p a:hover{
+    color: red;
+}
+.longer_public{
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 72px;
+}
+.img_public{
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.public_style h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3E3E3E;
+    padding: 30px 0 0 30px;
+}
+.hot-sj{
+    padding-top: 30px;
+}
+.public_style p{
+    line-height: 30px;
+    margin-left:150px;
+}
+.public_style p a{
+    color: #3E3E3E;
+    font-size: 14px;
+}
+.public_style p a:hover{
+    color: red;
+}
+/*footer*/
+#footer{
+    height: 193px;
+    width: 100%;
+    background: #fff;
+}
+.foot_top{
+    height: 115px;
+    border-bottom: 1px solid #ddd6d9;
+    text-align: center;
+    padding-top: 20px;
+}
+.foot_top p{
+    margin-top: 20px;
+}
+.foot_top p a{
+    display: inline-block;
+    margin-right: 15px;
+    color: #99a1a6;
+    font-size: 14px;
+}
+.foot_top p a:hover{
+    color: red;
+}
+.foot_bottom{
+    height: 37px;
+    text-align: center;
+    color: #99a1a6;
+    padding-top: 20px;
+}
+
+

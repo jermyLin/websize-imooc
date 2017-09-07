@@ -1,0 +1,663 @@
+/*1.ͷ������*/
+#header{
+    width: 100%;
+    height: 80px;
+}
+.logo img{
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.nav{
+    padding-top:30px;
+    margin-left:190px;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav li a{
+    display: inline-block;
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.login{
+    margin: -22px 40px 0 0;
+}
+.login li{
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+}
+.login li a{
+    display: inline-block;
+    color: #3E3E3E;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.search_btn{
+    display: inline-block;
+    background: url("../shouye/search1.png") center;
+    width: 20px;
+    height: 20px;
+}
+.app_btn{
+    display: inline-block;
+    background: url("../shouye/app.png") center;
+    width: 20px;
+    height: 20px;
+}
+#bg_img{
+    background: url("../shouye/bg-1.jpg") no-repeat;
+    width: 100%;
+    height: 490px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+}
+/*2.�в�����*/
+
+/*course*/
+#course{
+    width: 100%;
+    height: 460px;
+    background: url("../shouye/banner1.jpg");
+    z-index: 0;
+    position: relative;
+
+}
+.course_nav{
+    width: 245px;
+    padding: 5px 0 5px 0;
+    height: 450px;
+    background-color: rgba(7,17,25,0.5);
+    position: relative;
+    z-index: 1;
+}
+.Course_Details{
+    height: 90px;
+    width: 205px;
+    padding: 0 20px;
+}
+.Course_Details:hover{
+    background-color: rgba(7,17,25,0.7);
+    cursor: pointer;
+}
+.Course_content{
+    height: 89px;
+    width: 100%;
+    border-bottom: 1px solid #909498;
+}
+.Course_content1{
+    height: 90px;
+    width: 100%;
+}
+.course_name{
+    line-height: 16px;
+    font-size: 16px;
+    color: #fff;
+    padding: 25px 0 10px 0;
+}
+.name_Details a{
+    color: #fff;
+    line-height: 14px;
+    margin-right: 10px;
+}
+.name_Details a:hover{
+    color: red;
+}
+.publicBox{
+    width: 693px;
+    height: 458px;
+    padding-left:40px;
+    border: 1px solid silver;
+    border-left: none;
+    z-index: 2;
+}
+.hide{
+    display: none;
+}
+.flml-1{
+    background:url("../shouye/flml-1.png") ;
+}
+.flml-2{
+    background:url("../shouye/flml-2.png") ;
+}
+.flml-3{
+    background:url("../shouye/flml-3.png") ;
+}
+.flml-4{
+    background:url("../shouye/flml-4.png") ;
+}
+.flml-5{
+    background:url("../shouye/flml-5.png") ;
+}
+.content_table{
+    line-height: 16px;
+    font-size: 16px;
+    color: red;
+    margin-bottom: 10px;
+    padding-top: 34px;
+}
+.title a,span{
+    display: inline-block;
+    font-size:14px;
+    color: #3E3E3E;
+    margin:10px 10px 0 0;
+}
+.title a:hover{
+    color: red;
+}
+.arrow{
+    cursor: pointer;
+    width:40px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    z-index: 1;
+}
+.arrow:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+#prev{
+    left: 245px;
+}
+#next{
+    right: 0;
+}
+/*ʵս�Ƽ�����Ѻÿβ���*/
+.recommend_combat{
+    margin: 30px 0 25px 0;
+}
+.combat{
+    line-height: 16px;
+    font-size: 16px;
+}
+.more{
+    line-height: 16px;
+    font-size: 16px;
+    color: #3E3E3E;;
+    margin-top: 8px;
+}
+.recommend_Details{
+    width: 100%;
+    height: 172px;
+}
+.recommend_box{
+    width: 224px;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+}
+.recommend_box1{
+    width: 224px;
+    height: 100%;
+    position: relative;
+}
+.recommend_img01{
+    background: url("../shouye/sz-1.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img02{
+    background: url("../shouye/sz-2.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img03{
+    background: url("../shouye/sz-3.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img04{
+    background: url("../shouye/sz-4.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img05{
+    background: url("../shouye/sz-5.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img1{
+    background: url("../shouye/mf-1.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img2{
+    background: url("../shouye/mf-2.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img3{
+    background: url("../shouye/mf-3.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img4{
+    background: url("../shouye/mf-4.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.recommend_img5{
+    background: url("../shouye/mf-5.jpg") no-repeat;
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.Det_box{
+    height: 86px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8),#fff, #fff, #fff);
+    background:-moz-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);
+    background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);
+    overflow: hidden;
+    box-shadow: 0 5px 5px #ececec;
+}
+.box_title{
+    /* line-height: 40px;
+     overflow: hidden;
+     color: #3E3E3E;
+     font-size: 14px;
+     text-align: center;*/
+    width: 184px;
+    margin-top: 19px;
+    height: 24px;
+    min-height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-left: 20px;
+    color: #3E3E3E;
+}
+.box_content{
+    /* color: #93999f;
+     font-size: 12px;
+     height: 46px;
+     overflow: hidden;
+     padding-left: 10px;*/
+    width: 184px;
+    color: #93999f;
+    font-size: 12px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 20px
+}
+.box_bottom{
+    /* height: 40px;
+     position: absolute;display: none;
+     bottom: 0;
+     z-index: 1;
+     background-color: #fff;
+     width: 100%;*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: #93999f;
+}
+.cost{
+    color: red;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.people_num{
+    font-size: 12px;
+    margin-right: 20px;
+}
+.people_num01{
+    font-size: 12px;
+    margin-left: 20px;
+}
+/*Web-Java-PHP-Android-iOS-Linux�ȿγ̲���*/
+
+/*a.web����*/
+
+.web_Des{
+    background: url("../shouye/web-bg1.png");
+}
+.web_Des p a{
+    color: #c03;
+}
+.web_longer{
+    width: 468px;
+    height: 100%;
+    margin-right: 20px;
+}
+.longer_top1{
+    margin-bottom: 20px;
+    background: url("../shouye/web-bg2.jpg");
+}
+.longer_bottom1{
+    background: url("../shouye/web-bg3.jpg");
+}
+.shot{
+    width: 224px;
+    height: 100%;
+    margin-right: 20px;
+}
+.shot_top{
+    width: 100%;
+    height: 172px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.shot_bottom{
+    width: 100%;
+    height: 172px;
+    position: relative;
+}
+.top_img1{
+    background: url("../shouye/web-bg4.jpg") no-repeat;
+}
+.top_img2{
+    background: url("../shouye/web-bg5.jpg") no-repeat;
+}
+.top_img3{
+    background: url("../shouye/web-bg6.jpg") no-repeat;
+}
+/*b.java����*/
+.java_Des{
+    background: url("../shouye/java-bg1.png");
+}
+.java_Des p a{
+    color: #069;
+}
+.java_longer{
+    width: 712px;
+    height: 364px;margin-right: 20px;
+}
+.longer_top2{
+    margin-bottom: 20px;
+    background: url("../shouye/java-bg2.jpg");
+}
+.top_img01{
+    background: url("../shouye/java-bg3.png") no-repeat;
+}
+.top_img02{
+    background: url("../shouye/java-bg4.png") no-repeat;
+}
+.top_img03{
+    background: url("../shouye/java-bg5.png") no-repeat;
+}
+.top_img04{
+    background: url("../shouye/java-bg6.jpg") no-repeat;
+}
+/*c.�ּ�Գ�ʲ���*/
+.SjYW_Des{
+    background: url("../shouye/sj-bg1.png");
+    width: 184px;
+    height: 344px;
+    margin-right: 20px;
+    padding:20px 20px 0 20px;
+}
+.SjYW_Des h1{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+.dj{
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dj a{
+    display: inline-block;
+    color: #fff;
+}
+.It_ZhiShi{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin: 20px 0 120px 0;
+}
+.SjYW_middle{
+    width: 468px;
+    height: 364px;
+    margin-right: 20px;
+}
+.middle_top{
+    margin-bottom: 20px;
+    background: url("../shouye/sj-bg2.jpg");
+}
+.middle_bottom,.SjYW_right-bottom{
+    background: #ffffff;
+    width: 100%;
+    height: 172px;
+}
+.bottom_public{
+    width: 224px;
+    height: 172px;
+    position: relative;
+    margin-right: 20px;
+}
+.bottom_right{
+    width: 224px;
+    height: 172px;
+    position: relative;
+}
+.SjYW_right{
+    width: 468px;
+    height: 364px;
+}
+.SjYW_right-top{
+    margin-bottom: 20px;
+    background: url("../shouye/sj-bg3.jpg");
+}
+
+/*d.��������*/
+/*.Det_box{
+    height: 86px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    /!*background-color: rgba(255,255,255,0.9);*!/
+    overflow: hidden;
+    box-shadow: 0 5px 5px #ececec;
+}
+.box_title{
+    line-height: 40px;
+    overflow: hidden;
+    color: #3E3E3E;
+    font-size: 14px;
+    text-align: center;
+    background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1));
+}
+.box_content{
+    color: #93999f;
+    font-size: 12px;
+    height: 46px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.box_bottom{
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+}
+.cost{
+    color: red;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.people_num{
+    font-size: 12px;
+    padding-right: 10px;
+}
+.people_num01{
+    font-size: 12px;
+    padding-left: 10px;
+}*/
+#mainbody02{
+    width: 100%;
+    height: 1460px;
+    background-color: #f3f5f7;
+    padding-top: 48px;
+    margin-top: 48px;
+}
+#web_course,#Java_course,#Linux_course,#SjYW_course{
+    height: 364px;
+    margin-bottom: 48px;
+}
+.right_part{
+    width: 224px;
+    height: 364px;
+}
+.right_top{
+    position: relative;
+    width: 224px;
+    height: 172px;
+}
+.right_bottom{
+    height: 172px;
+    width: 224px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.right_bottom li{
+    padding:10px 0 0 10px;
+}
+.right_bottom li a{
+    color: #3E3E3E;
+}
+.right_bottom li a:hover{
+    color: red;
+}
+.Det_box1{
+    height: 86px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8),#fff, #fff, #fff);
+    background:-moz-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);
+    background:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8), #fff, #fff, #fff);
+    overflow: hidden;
+}
+.public_Des{
+    width: 184px;
+    height: 344px;
+    margin-right: 20px;
+    padding:20px 20px 0 20px;
+}
+.public_Des h1{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+.Career_Path{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin: 40px 0 100px 0;
+}
+.public_Des p a{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.public_Des p a:hover{
+    color: red;
+}
+.longer_public{
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 72px;
+}
+.img_public{
+    width: 100%;
+    height: 128px;
+    background-size: contain;
+}
+.public_style h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3E3E3E;
+    padding: 30px 0 0 30px;
+}
+.public_style p{
+    line-height: 25px;
+    margin-left:150px;
+}
+.public_style p a{
+    color: #3E3E3E;
+    font-size: 14px;
+}
+.public_style p a:hover{
+    color: red;
+}
+/*footer����*/
+#footer{
+    height: 193px;
+    width: 100%;
+    background: #fff;
+}
+.foot_top{
+    height: 115px;
+    border-bottom: 1px solid #ddd6d9;
+    text-align: center;
+    padding-top: 20px;
+}
+.foot_top p{
+    margin-top: 20px;
+}
+.foot_top p a{
+    display: inline-block;
+    margin-right: 15px;
+    color: #99a1a6;
+    font-size: 14px;
+}
+.foot_top p a:hover{
+    color: red;
+}
+.foot_bottom{
+    height: 37px;
+    text-align: center;
+    color: #99a1a6;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+

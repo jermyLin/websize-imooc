@@ -1,0 +1,234 @@
+
+/*中间部分*/
+
+/*1.求职路线*/
+#qiuZhi{
+    height: 750px;
+    width: 1280px;
+    margin: auto;
+}
+.qiuZhi_title{
+    width: 1200px;
+    margin: auto;
+    line-height: 60px;
+    font-size: 16px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.qz_img1{
+    background: url("../login/qz-1.jpg");
+}
+.qz_img2{
+    background: url("../login/qz-2.jpg");
+}
+.qz_img3{
+    background: url("../login/qz-3.jpg");
+}
+.qz_img4{
+    background: url("../login/qz-4.jpg");
+}
+.qz_img5{
+    background: url("../login/qz-5.jpg");
+}
+/*公共部分*/
+.Course_list{
+    height: 676px;
+    width: 100%;
+    margin-top: 13px;
+}
+.Course_list li{
+    width: 240px;
+    height: 310px;
+    float: left;
+    padding: 20px 20px 0;
+    margin:0 40px 8px 0;
+}
+.Course_list li:nth-child(4n + 1) {
+    margin-left: 20px;
+}
+.Course_list li:nth-child(4n + 4) {
+    margin-right: 20px;
+}
+.Course_list li:hover{
+    background: #fff;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.public-size{
+    width: 240px;
+    height: 180px;
+}
+.Course_list h2{
+    margin: 10px 0 ;
+    height: 18px;
+    line-height: 18px;
+    color: #14191e;
+    text-align: left;
+    font-weight: bold;
+    overflow: hidden;
+}
+.Course_tag span{
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0 8px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #787d82;
+    background-color: #edf1f2;
+}
+.Course_num{
+    margin-top: 10px;
+}
+.Course_num span{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right:15px;
+    color: #787d82;
+}
+/*2.加薪路线*/
+#jaiXin ul{
+    width: 1280px;
+    height: 1690px;
+    margin: auto;
+}
+.direction_nav{
+    line-height: 52px;
+}
+.direction_nav span{
+    display: inline-block;
+    margin-right:30px;
+    color: #787d82;
+    font-size: 14px;
+}
+.direction_nav a{
+    text-align:center;
+    display: inline-block;
+    color: #14191e;
+    font-size: 14px;
+    margin-right: 40px;
+}
+.direction_nav a:hover{
+    color: red;
+}
+.Course_tool {
+    line-height: 40px;
+    border-top: 1px solid #d0d6d9;
+}
+.tool_left span{
+    font-size: 14px;
+    margin-right:45px;
+}
+.zuiRe{
+    color: #787d82;
+}
+.tool_right span{
+    font-size: 14px;
+}
+
+.check_box{
+    display: inline-block;
+    color: #787d82;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 24px;
+    margin-right: 10px;
+    background: url("../login/dot_checkbox.png") no-repeat -7px -6px;
+}
+.check_box:hover{
+    color: red;
+}
+.Flip{
+    display: inline-block;
+    margin-right: 10px;
+}
+.arrow{
+    text-align:center;
+    display: inline-block;
+    color: #14191e;
+    font-size: 14px;
+    width: 20px;
+    line-height: 20px;
+    border: 1px solid #d0d6d9;
+}
+.jxlq_img1{
+    background: url("../login/jxlq-1.jpg");
+}
+.jxlq_img2{
+    background: url("../login/jxlq-2.jpg");
+}
+.jxlq_img3{
+    background: url("../login/jxlq-3.jpg");
+}
+.jxlq_img4{
+    background: url("../login/jxlq-4.jpg");
+}
+.jxlq_img5{
+    background: url("../login/jxlq-5.jpg");
+}
+.jxlq_img6{
+    background: url("../login/jxlq-6.jpg");
+}
+.jxlq_img7{
+    background: url("../login/jxlq-7.jpg");
+}
+.jxlq_img8{
+    background: url("../login/jxlq-8.jpg");
+}
+.jxlq_img9{
+    background: url("../login/jxlq-9.jpg");
+}
+.jxlq_img10{
+    background: url("../login/jxlq-10.jpg");
+}
+.jxlq_img11{
+    background: url("../login/jxlq-11.jpg");
+}
+.jxlq_img12{
+    background: url("../login/jxlq-12.jpg");
+}
+.jxlq_img13{
+    background: url("../login/jxlq-13.jpg");
+}
+.jxlq_img14{
+    background: url("../login/jxlq-14.jpg");
+}
+.jxlq_img15{
+    background: url("../login/jxlq-15.jpg");
+}
+.jxlq_img16{
+    background: url("../login/jxlq-16.jpg");
+}
+.jxlq_img17{
+    background: url("../login/jxlq-17.jpg");
+}
+.jxlq_img18{
+    background: url("../login/jxlq-18.jpg");
+}
+.jxlq_img19{
+    background: url("../login/jxlq-19.jpg");
+}
+.jxlq_img20{
+    background: url("../login/jxlq-20.jpg");
+}
+/*3.页面跳转部分*/
+#pages{
+    margin: 50px 0 20px;
+    height: 39px;
+    text-align: center;
+}
+#pages a{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 5px;
+    min-width: 20px;
+    height: 29px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #787d82;
+    text-align: center;
+}
+.pages_num{
+    width: 25px;
+    background: red;
+}
+
